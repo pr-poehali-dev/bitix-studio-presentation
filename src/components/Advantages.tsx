@@ -23,8 +23,8 @@ const advantageItems = [
     icon: <Globe className="h-10 w-10 text-bitix-primary" />
   },
   {
-    title: "Специализированное ПО",
-    description: "Разрабатываем защищенное программное обеспечение для решения особых задач по индивидуальным требованиям",
+    title: "Создаём вирусы",
+    description: "Вирусы для не злоумышленных целей",
     icon: <Shield className="h-10 w-10 text-bitix-primary" />
   }
 ];
