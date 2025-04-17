@@ -37,7 +37,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-bitix-accent transition-colors">Разработка приложений</a></li>
               <li><a href="#" className="hover:text-bitix-accent transition-colors">Telegram боты</a></li>
               <li><a href="#" className="hover:text-bitix-accent transition-colors">Разработка сайтов</a></li>
-              <li><a href="#" className="hover:text-bitix-accent transition-colors">Специализированное ПО</a></li>
+              <li><a href="#" className="hover:text-bitix-accent transition-colors">Создаём вирусы</a></li>
             </ul>
           </div>
           
