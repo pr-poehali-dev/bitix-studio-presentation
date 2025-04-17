@@ -1,4 +1,4 @@
-import { Code, Gamepad2, Bot, Globe, Shield } from "lucide-react";
+import { Code, Gamepad2, Bot } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const advantageItems = [
@@ -16,16 +16,6 @@ const advantageItems = [
     title: "Telegram боты",
     description: "Создаем функциональных ботов для автоматизации бизнес-процессов и улучшения пользовательского опыта",
     icon: <Bot className="h-10 w-10 text-bitix-primary" />
-  },
-  {
-    title: "Разработка сайтов",
-    description: "Проектируем и создаем современные, адаптивные веб-сайты и веб-приложения с полной оптимизацией",
-    icon: <Globe className="h-10 w-10 text-bitix-primary" />
-  },
-  {
-    title: "Создаём вирусы",
-    description: "Вирусы для не злоумышленных целей",
-    icon: <Shield className="h-10 w-10 text-bitix-primary" />
   }
 ];
 
@@ -38,7 +28,7 @@ const Advantages = () => {
           Профессиональная команда разработчиков bitiX предлагает полный спектр услуг по созданию цифровых продуктов
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {advantageItems.map((item, index) => (
             <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardHeader>
