@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Instagram, Facebook, Telegram } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, Facebook, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -50,7 +50,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="h-10 w-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-bitix-primary transition-colors"
               >
-                <Telegram className="h-5 w-5" />
+                <MessageCircle className="h-5 w-5" />
               </a>
               <a 
                 href="https://instagram.com/bitix" 
